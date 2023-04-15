@@ -1,0 +1,29 @@
+FileName: 'predictive_maintenance.csv'
+NumberofColumns: 9
+  ColumnNames:
+  Product ID: category
+  Type: category
+  Air temperature [K]	: float
+  Process temperature [K]	: float
+  Rotational speed [rpm]: int
+  Torque [Nm]: float
+  Tool wear [min]	: int
+  Target: int
+  Failure Type: category
+
+Numerical_columns:
+ - Air temperature [K]
+ - Process temperature [K]
+ - Torque [Nm] 
+
+# Oridnal_Columns:
+
+Onehot_columns:
+ - Type
+
+#Transformation_columns:
+
+target_columns:
+ - Target
+
+  
