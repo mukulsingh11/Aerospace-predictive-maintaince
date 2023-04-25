@@ -16,14 +16,13 @@ Numerical_columns:
  - Process temperature [K]
  - Torque [Nm] 
 
-# Oridnal_Columns:
+
 
 Onehot_columns:
  - Type
 
-#Transformation_columns:
 
-target_columns:
- - Target
+
+target_columns: Target
 
   
